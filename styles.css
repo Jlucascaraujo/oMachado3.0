@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+/*Universais*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px
+}
+
+ul, li{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*1. HEADER*/
+/*Parent A*/
+#espacoTitulo {
+    display: block;
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+
+/*Child A.1 Paginas Básicas*/
+#headerContentWrap {
+    border: 1px solid black;
+    float: left;
+    padding: 10px;
+    width: 20%;
+    height: 100px;
+}
+
+#headerPaginas>li {
+    /*Posição e Tamanho*/
+    height: 100%;
+    width: 100%;
+    /*Fonte e Estilo*/
+    font-family: "Germania One", system-ui;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/*Child A.2 Titulo Principal*/
+#headerTitulo {
+    /*Underline Estilizada do Título*/
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 20px;
+}
+
+#headerTitulo>h1 {
+        /*Fonte do Titulo do Header*/
+    text-align: center;
+    font-family: "Germania One", system-ui;
+    font-size: 80px;
+}
+
+/*Child A.3 Atividades*/
+#feedAtividades {
+    border: 1px solid black;
+    float: right;
+    overflow-y: scroll;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 30%;
+    height: 100px;
+}
+
+#feedAtividades>h1{
+    /*Titulo das Atividades*/
+    font-size: 18px;
+    text-align: center;
+    font-family: "Germania One", system-ui;
+    text-decoration: underline;
+}
+
+.feedAtividadesText {
+    font-size: 12px;
+}
+
+/*2. CORPO ENTRE HEADER E FOOTER, CONTÉM AS SIDE BARS*/
+#paginaGeral {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+main {
+    padding: 25px;
+}
+
+#textoDestacado {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*2.1 LEFT NAV BAR*/
+#leftNavBar {
+    border-right: 1px solid black;
+}
+
+#leftNavBar>h1, h2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: "Germania One", system-ui;
+    text-decoration: underline;
+}
+
+#leftNavBar> h2 {
+    font-size: 16px;
+}
+
+.leftNavAboutMeLinks{
+    font-size: 14px;
+}

@@ -14,6 +14,7 @@
     <script src="script.js" type="text/javascript" defer></script>
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/headerAtividades.js" type="text/javascript" defer></script>
+    <script src="components/buttonBar.js" type="text/javascript" defer></script>
     <script src="components/leftnavbar.js" type="text/javascript" defer></script>
     <script src="components/rightnavbar.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
@@ -23,21 +24,15 @@
 <body>
     <!--HEADER-->
     <header-template></header-template>
-    <div id="buttonBar">
-        <marquee behavior="slide" direction="left">
-            <a href="https://midifreak.online/"><img src="https://midifreak.online/button.gif" alt="midifreakbutton"></a>
-            <img src="resources/noNazismButton.gif" alt="noNazisButton">
-            <a href="https://starlitmarmalade.neocities.org/"><img src="https://starlitmarmalade.neocities.org/buttons/button-blue.jpg" alt="starlitmarmalade"></a>
-        </marquee>
-    </div>
+    <button-bar></button-bar>
 
     <!--CENTRAL-->
-    <div id="paginaGeral">
+    <main>
 
         <!--LEFT NAV BAR-->
         <left-nav-bar></left-nav-bar>
-        <!--MAIN-->
-        <main>
+        <!--MAIN DIV-->
+        <div>
             <article>
                 <h1>Por que IndieWeb?</h1>
                 <p>
@@ -84,11 +79,11 @@
 
                 </p>
             </article>
-        </main>
+        </div>
 
         <!--RIGHT NAV BAR-->
         <right-nav-bar></right-nav-bar>
-    </div>
+    </main>
 
     <!--FOOTER-->
     <footer-template></footer-template>

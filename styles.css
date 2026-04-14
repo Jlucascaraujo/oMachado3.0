@@ -19,13 +19,7 @@
     ul, li{
         margin: 0px;
         padding: 0px;
-        text-decoration: none;
         list-style-type: none;
-    }
-
-    a{
-        text-decoration: none;
-        color: inherit;
     }
 
     div {
@@ -113,8 +107,6 @@
         text-justify: newspaper;
     }
 
-
-
     #textoDestacado {
         font-weight: bold;
         font-style: italic;
@@ -139,3 +131,16 @@
     .leftNavAboutMeLinks{
         font-size: 14px;
     }
+
+    /*PAGINA: REVIEWS DO MêS*/
+.textosDasReview {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 15px;
+}
+
+.reviewImgs {
+    max-height: 114px;
+    max-width: 98px;
+    height: auto;
+}

@@ -137,7 +137,7 @@
     }
 
     /*PÁGINA: INDEX/PRINCIPAL*/
-    #textoDestacado {
+    .textoDestacado {
         font-weight: bold;
         font-style: italic;
     }

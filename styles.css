@@ -161,7 +161,9 @@
         height: auto;
     }
 
-    #naoValeAPenaVerDeNovo {
-        margin-top: 50px;
-        border-top: 1px solid black;
+    /*PÁGINA: RECOMENDAÇÕES*/
+    #recomendacoesWrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 20px;
     }

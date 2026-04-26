@@ -167,3 +167,15 @@
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 20px;
     }
+
+    .elementoListaWrapper {
+        padding: 5px;
+        margin: 5px;
+        border: 1px solid black;
+    }
+
+    .imagemElementoListaWrapper {
+        height: auto; 
+        width: 100%;
+        padding-bottom: 25px;
+    }
